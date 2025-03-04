@@ -1,0 +1,328 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/rustam/ontologies/2025/2/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/rustam/ontologies/2025/2/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.semanticweb.org/rustam/ontologies/2025/2/untitled-ontology-3/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Author"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TargetAuditory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#book"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Related"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAuthor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGenre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTargetAuditory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AlexandrSergeevychPushkin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EugeniyZamatyn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JamesHandlyChaze"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RussianTales"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ShockTherapy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tales"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#We"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#adults"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#childs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#detective"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#antiutopia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#students"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#AlexandrSergeevychPushkin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#EugeniyZamatyn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#JamesHandlyChaze"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#book"/>
+        <NamedIndividual IRI="#RussianTales"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#book"/>
+        <NamedIndividual IRI="#ShockTherapy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Tales"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#book"/>
+        <NamedIndividual IRI="#We"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TargetAuditory"/>
+        <NamedIndividual IRI="#adults"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#antiutopia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TargetAuditory"/>
+        <NamedIndividual IRI="#childs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#detective"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TargetAuditory"/>
+        <NamedIndividual IRI="#students"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#EugeniyZamatyn"/>
+        <NamedIndividual IRI="#EugeniyZamatyn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#EugeniyZamatyn"/>
+        <NamedIndividual IRI="#antiutopia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#RussianTales"/>
+        <NamedIndividual IRI="#AlexandrSergeevychPushkin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#RussianTales"/>
+        <NamedIndividual IRI="#Tales"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTargetAuditory"/>
+        <NamedIndividual IRI="#RussianTales"/>
+        <NamedIndividual IRI="#childs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#ShockTherapy"/>
+        <NamedIndividual IRI="#JamesHandlyChaze"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#ShockTherapy"/>
+        <NamedIndividual IRI="#detective"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTargetAuditory"/>
+        <NamedIndividual IRI="#ShockTherapy"/>
+        <NamedIndividual IRI="#adults"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#We"/>
+        <NamedIndividual IRI="#EugeniyZamatyn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#We"/>
+        <NamedIndividual IRI="#antiutopia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTargetAuditory"/>
+        <NamedIndividual IRI="#We"/>
+        <NamedIndividual IRI="#students"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <ObjectProperty IRI="#Related"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasGenre"/>
+        <ObjectProperty IRI="#Related"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTargetAuditory"/>
+        <ObjectProperty IRI="#Related"/>
+    </SubObjectPropertyOf>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasAuthor"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasGenre"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasTargetAuditory"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <Class IRI="#book"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGenre"/>
+        <Class IRI="#book"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTargetAuditory"/>
+        <Class IRI="#book"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <Class IRI="#Author"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGenre"/>
+        <Class IRI="#Genre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTargetAuditory"/>
+        <Class IRI="#TargetAuditory"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AlexandrSergeevychPushkin</IRI>
+        <Literal>Александр Сергеевич Пушкин</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Author</IRI>
+        <Literal>Автор</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EugeniyZamatyn</IRI>
+        <Literal>Евгений Замятин</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Genre</IRI>
+        <Literal>Жанр</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#JamesHandlyChaze</IRI>
+        <Literal>Джеймс Хэндли Чейз</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Related</IRI>
+        <Literal>связан</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RussianTales</IRI>
+        <Literal>Сказка о царе Салтане</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ShockTherapy</IRI>
+        <Literal>Лечение шоком</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tales</IRI>
+        <Literal>Сказки</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TargetAuditory</IRI>
+        <Literal>ЦелеваяАудитория</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#We</IRI>
+        <Literal>Мы</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#adults</IRI>
+        <Literal>Взрослые</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#antiutopia</IRI>
+        <Literal>Антиутопия</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#book</IRI>
+        <Literal>Книга</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#childs</IRI>
+        <Literal>Дети</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#detective</IRI>
+        <Literal>Детектив</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAuthor</IRI>
+        <Literal>имеетАвтора</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasGenre</IRI>
+        <Literal>имеетЖанр</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasTargetAuditory</IRI>
+        <Literal>имеетЦелевуюАудиторию</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#students</IRI>
+        <Literal>Студенты</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
